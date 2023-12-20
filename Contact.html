@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Milk Tea</title>
+    <style>
+
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+#container {
+    width: 980px;
+    margin:auto;
+    color: #fff;
+}
+
+#header {
+    height: 180px;
+    background-color: #776B5D;
+    padding-top: 20px;
+    background-image: url('gambar/banner%201.png'); 
+}
+
+#nav ul {
+    background: #906b2b;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+#nav ul li:hover {
+    background: #f9f9f9;
+}
+
+#nav ul li:hover a {
+    color: #000;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#content {
+    height: 650px;
+    background-color: #b09154;
+    width: 980px;
+    float: left;
+    text-align: center;
+} 
+
+
+#content .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+#content p2{
+    font-size: 18px;
+    color: #ffffff;
+    margin: 50px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.5);
+}
+
+#content h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.5);
+}
+
+
+.field {
+    margin-bottom: 15px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.field input[type="text"],
+.field textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.field textarea {
+    resize: vertical;
+}
+
+#content input, textarea{
+    background: rgba(255,255,255,.5);
+    border: none;
+}
+
+
+#content button[type="reset"] {
+    padding: 8px 16px;
+    background-color: #906b2b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#content button[type="reset"]:hover {
+    background-color: #1c3087;
+}
+
+
+#footer {
+    width: 980px;
+    height: 60px;
+    background-color: #906b2b;
+    padding-top: 30px;
+    clear: both;
+    text-align: center;
+    color: #fff;
+    margin: 20px auto 0;
+}
+
+#footer p {
+    text-align: center;
+}
+
+
+    </style>
+    
+</head>
+<body>
+    <div id="container">
+    <div id="header">
+        
+    </div>
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Gallerry.html">Gallery</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+
+    </div>
+    <div id="content">
+        <h2>Contact Us</h2>
+        <p2>Ada pertanyaan?<br> Hubungi kami menggunakan formulir di bawah ini.</p2>
+        <div class="container">
+            <form>
+                <div class="field" tabindex="1">
+                    <label for="username">
+                        <i class="far fa-user"></i>Nama
+                    </label>
+                    <input name="username" type="text" placeholder="Nama" required>
+                </div>
+                <div class="field" tabindex="2">
+                    <label for="email">
+                        <i class="far fa-envelope"></i>Email
+                    </label>
+                    <input name="email" type="text" placeholder="email@domain.com" required>
+                </div>
+                <div class="field" tabindex="3">
+                    <label for="message">
+                        <i class="far fa-edit"></i>Pesan
+                    </label>
+                    <textarea name="message" placeholder="Ketik di sini" required></textarea>
+                </div>
+                <button type="reset">Kirim</button>
+            </form>
+        </div>
+        
+        <!-- This is not part of Pen -->
+        <a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank" style="color:#000"></a>
+  
+    </div>
+    <div id="sidebar">
+    </div>
+    <div id="footer">
+        <p>Muhammad Rafly Sugiharto (23101170077)&copy;</p>
+    </div>
+
+</div>
+    
+</body>
+</html>

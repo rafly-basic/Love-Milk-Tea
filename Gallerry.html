@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Milk Tea</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+#container {
+    width: 980px;
+    margin:auto;
+    color: #fff;
+}
+
+#header {
+    height: 180px;
+    background-color: #776B5D;
+    padding-top: 20px;
+    background-image: url('gambar/banner%201.png'); 
+}
+
+#nav ul {
+    background: #906b2b;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+#nav ul li:hover {
+    background: #f9f9f9;
+}
+
+#nav ul li:hover a {
+    color: #000;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#content {
+    height: 700px;
+    background-color: #fffdfd;
+    width: 980px;
+    float: left;
+}
+
+.p {
+    text-align: justify;
+    color: black;
+    margin: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+h1{
+  text-align: center;
+  color:rgb(159, 102, 21);
+}
+.container-all{
+  width: fit-content;
+  margin: 20px auto;
+  height: auto;
+}
+.container{
+  width: 320px;
+  overflow:hidden;
+  height: 320px;
+  margin:3px;
+  padding: 0px;
+  display:block;
+  position:relative;
+  float:left;
+}
+img{
+  width: 100%;
+  transition-duration: .3s;
+  max-width: 100%;
+  display:block;
+  overflow:hidden;
+  cursor:pointer;
+}
+.title{
+  position:absolute;
+  display:block;
+  cursor:pointer;
+  top: 35%;
+  display: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.6em;
+  text-shadow: 1px 5px 10px black;
+  transition-duration: .3s;
+}
+.text{
+  position:absolute;
+  top: 70%;
+  cursor:pointer;
+  max-width: 80%;
+  text-align:center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display:none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%) 
+}
+.container:hover img{
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+}
+.container:hover span{
+  color:rgb(255, 255, 255);
+  display: block;
+  transition-duration: .3s;
+}
+
+
+ #footer {
+    width: 980px;
+    height: 60px;
+    background-color: #906b2b;
+    padding-top: 30px;
+    clear: both;
+    text-align: center;
+    color: #fff;
+    margin: 20px auto 0;
+}
+
+#footer p {
+    text-align: center;
+}
+
+</style>
+<body>
+    <div id="container">
+    <div id="header">
+        
+    </div>
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Gallerry.html">Gallery</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+
+    </div>
+    <div id="content">
+         <h1>Gallery Love Milk Tea</h1>
+    <div class="container-all">
+    <div class="container">
+      <img src="gambar/gallery7.jpg" alt="">
+       <span class="title">Catalog</span>
+    </div>
+    <div class="container">
+      <img src="gambar/gallery8.jpg" alt="">
+      <span class="title">Catalog</span>
+    </div>
+    <div class="container">
+      <img src="gambar/gallery9.jpg" alt="">
+       <span class="title">Catalog</span>
+    </div>
+    <div class="container">
+      <img src="gambar/galerry4.jpg" alt="">
+       <span class="title">Catalog</span>
+    </div>
+    <div class="container">
+      <img src="gambar/gallery5.jpg" alt="">
+       <span class="title">Catalog</span>
+    </div>
+    <div class="container">
+      <img src="gambar/gallery6.jpg" alt="">
+       <span class="title">Catalog</span>
+    </div>
+    </div>
+        
+        </div>
+    </div>
+    <div id="footer">
+        <p>Muhammad Rafly Sugiharto (23101170077)&copy;</p>
+    </div>
+
+</div>
+    
+</body>
+</html>
